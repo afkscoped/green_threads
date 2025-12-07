@@ -96,25 +96,4 @@ make -j$(nproc)
 - Parallel algorithms
 - Task dependencies
 
-## Performance
 
-```
-Thread Creation:    ~0.5μs per thread
-Context Switch:     ~50ns
-Memory per Thread:  8KB (minimum stack)
-```
-
-## License
-
-MIT License - See [LICENSE](LICENSE) for details.
-
-## Contributing
-
-Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md) for details.
-
-## TODO
-
-- [ ] Add more examples
-- [ ] Improve documentation
-- [ ] Add more tests
-- [ ] Support more platforms
